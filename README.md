@@ -39,7 +39,8 @@ In example app you can see how I use it.
 
 ![Imgur](https://i.imgur.com/0iMqGyS.gif)
 ![Imgur](https://i.imgur.com/tdf4Xo5.gif)
-![Imgur](https://i.imgur.com/RAcG4Ct.gif)
+[Imgur](https://i.imgur.com/TrsRm2l.mp4)
+
 
 ### License
 
