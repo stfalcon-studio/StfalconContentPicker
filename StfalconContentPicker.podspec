@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/stfalcon-studio"
   s.license      = { :type => "Apache License, Version 2.0", :file => "LICENSE" }
   s.author             = { "Vitalii Vasylyda" => "vitalii.vasylyda@stfalcon.com" }
-  s.source       = { :git =>  "https://github.com/stfalcon-studio/StfalconContentPicker" }
+  s.source       = { :git =>  "https://github.com/stfalcon-studio/StfalconContentPicker", :tag => "#{s.version}" }
   s.homepage = "https://github.com/stfalcon-studio/StfalconContentPicker"
   s.framework = "UIKit" 
   s.source_files  = "StfalconContentPicker/**/*.{swift}", "StfalconContentPicker/**/*.{xib}"
