@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MediaPickerViewController" customModule="StfalconContentPicker" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="lKU-BH-en2" id="usE-Up-rZ5"/>
+                <outlet property="view" destination="8vL-NX-YCP" id="MnR-ZU-WjB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8vL-NX-YCP">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKU-BH-en2">
+                    <rect key="frame" x="0.0" y="517" width="375" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="RzV-7N-zUo"/>
+                        <constraint firstAttribute="height" priority="999" constant="100" id="X5L-wM-mQi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PEI-n7-s55" firstAttribute="trailing" secondItem="lKU-BH-en2" secondAttribute="trailing" id="IWU-Ix-dlC"/>
+                <constraint firstItem="PEI-n7-s55" firstAttribute="bottom" secondItem="lKU-BH-en2" secondAttribute="bottom" id="XTZ-Xa-qax"/>
+                <constraint firstItem="lKU-BH-en2" firstAttribute="leading" secondItem="8vL-NX-YCP" secondAttribute="leading" id="mkQ-Bq-9ii"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="PEI-n7-s55"/>
+        </view>
+    </objects>
+</document>
