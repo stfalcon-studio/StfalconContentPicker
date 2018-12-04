@@ -37,7 +37,7 @@ MediaAsset - needed for represent asset from librarry. You can inheritate it or 
 
 In example app you can see how I use it.
 
-![Imgur](https://media.giphy.com/media/26sFMghaoDbAlr6jwN/giphy.gif)
+![Alt Text](https://media.giphy.com/media/26sFMghaoDbAlr6jwN/giphy.gif)
 
 
 ### License
