@@ -16,9 +16,9 @@ Download via Cocoapods:
  
  ## Protocols and what they do
 
- # AskGalleryPermision - this protocol needed for checking permisions, but this not requared and you can implemented your own logic.
- # Alertable - this protocol need for show popup's when user doesn't have permisions.
- # MediaPickerProtocol - this protocol needed for show widget with asset's in different cases such as:
+  AskGalleryPermision - this protocol needed for checking permisions, but this not requared and you can implemented your own logic.
+  Alertable - this protocol need for show popup's when user doesn't have permisions.
+ MediaPickerProtocol - this protocol needed for show widget with asset's in different cases such as:
   1. Show widget in parent view.
   2. Show widget in input view in UITextView, UITextField.
 
@@ -37,7 +37,8 @@ MediaAsset - needed for represent asset from librarry. You can inheritate it or 
 
 In example app you can see how I use it.
 
-![Imgur](https://imgur.com/P5L0AKy.gif)
+[Imgur](https://i.imgur.com/0iMqGyS.gifv)
+[2case](https://i.imgur.com/tdf4Xo5.gifv)
 
 
 ### License
