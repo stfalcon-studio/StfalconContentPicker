@@ -31,10 +31,12 @@
                     </imageView>
                     <button hidden="YES" opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0A-G2-Tvq">
                         <rect key="frame" x="43" y="34.5" width="29" height="29"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.8242722602739726" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="width" secondItem="c0A-G2-Tvq" secondAttribute="height" multiplier="1:1" id="wo7-s2-CVe"/>
                         </constraints>
-                        <state key="normal" title="Button" image="iconPlay"/>
+                        <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="10"/>
+                        <state key="normal" title="Play"/>
                         <connections>
                             <action selector="playButtonAction:" destination="n0D-zi-teD" eventType="touchUpInside" id="X7B-y5-6V6"/>
                         </connections>
@@ -61,7 +63,4 @@
             <point key="canvasLocation" x="138.40000000000001" y="153.82308845577214"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="iconPlay" width="83" height="83"/>
-    </resources>
 </document>

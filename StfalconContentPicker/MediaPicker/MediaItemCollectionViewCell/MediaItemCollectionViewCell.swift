@@ -38,6 +38,12 @@ open class MediaItemCollectionViewCell: UICollectionViewCell, NibReusable {
         statusImageView?.layer.cornerRadius = 10.0
     }
     
+    override open func layoutSubviews() {
+        super.layoutSubviews()
+        
+        playButton.roundCorners(corners: .allCorners, radius: playButton.bounds.height / 2, rect: playButton.bounds)
+    }
+    
     // MARK: - Public
     
     open func configureWith(_ image: UIImage?, statusImage: UIImage?, type: PHAssetMediaType = .image) {
