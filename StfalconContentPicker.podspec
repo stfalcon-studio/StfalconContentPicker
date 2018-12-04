@@ -15,11 +15,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/stfalcon-studio/StfalconContentPicker"
   s.framework = "UIKit" 
   s.source_files  = "StfalconContentPicker/**/*.{swift}", "StfalconContentPicker/**/*.{xib}"
-  s.resource_bundles = {
-    'StfalconContentPicker' => [
-        'Pod/**/*.xib'
-    ]
-  }
+
   s.swift_version = "4.0"
 
 end
