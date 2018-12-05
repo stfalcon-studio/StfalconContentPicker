@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="CollectionAssetView" id="qF2-cP-oZd" customClass="CollectionAssetView" customModule="StfalconContentPicker">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g5B-WJ-2ih">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4r-6P-tj4">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fwQ-RV-n6A">
+                                    <rect key="frame" x="5" y="5" width="365" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBK-6R-xNZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="84" height="40"/>
+                                            <state key="normal" title="Done"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.26274509800000001" green="0.58431372550000005" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="doneButtonAction:" destination="qF2-cP-oZd" eventType="touchUpInside" id="VUf-NW-bPt"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49D-m9-Ee2">
+                                            <rect key="frame" x="94" y="0.0" width="83.5" height="40"/>
+                                            <state key="normal" title="All"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.94901960780000005" green="0.64705882349999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="showAllAssetsAction:" destination="qF2-cP-oZd" eventType="touchUpInside" id="lXe-w6-AyA"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97P-Sm-Ws7">
+                                            <rect key="frame" x="187.5" y="0.0" width="84" height="40"/>
+                                            <state key="normal" title="Photos"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.94901960780000005" green="0.64705882349999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="showPhotosAction:" destination="qF2-cP-oZd" eventType="touchUpInside" id="uxG-wc-gNA"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiv-L8-UT3">
+                                            <rect key="frame" x="281.5" y="0.0" width="83.5" height="40"/>
+                                            <state key="normal" title="Videos"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" red="0.94901960780000005" green="0.64705882349999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="showVideosAction:" destination="qF2-cP-oZd" eventType="touchUpInside" id="xnw-1d-1pf"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="fwQ-RV-n6A" secondAttribute="bottom" constant="5" id="0So-sz-dfI"/>
+                                <constraint firstAttribute="trailing" secondItem="fwQ-RV-n6A" secondAttribute="trailing" constant="5" id="2cj-tx-0z1"/>
+                                <constraint firstItem="fwQ-RV-n6A" firstAttribute="leading" secondItem="C4r-6P-tj4" secondAttribute="leading" constant="5" id="9zw-hC-12y"/>
+                                <constraint firstItem="fwQ-RV-n6A" firstAttribute="top" secondItem="C4r-6P-tj4" secondAttribute="top" constant="5" id="iVm-Df-byj"/>
+                                <constraint firstAttribute="height" constant="50" id="wj1-9R-TaA"/>
+                            </constraints>
+                        </view>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="q3Y-OX-QJF">
+                            <rect key="frame" x="0.0" y="50" width="375" height="150"/>
+                            <color key="backgroundColor" red="0.38431372549019605" green="0.45490196078431372" blue="0.88627450980392153" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="Mo3-Jz-xP3"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="1" minimumInteritemSpacing="1" id="XGM-A8-d6f">
+                                <size key="itemSize" width="115" height="98"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <connections>
+                                <outlet property="dataSource" destination="qF2-cP-oZd" id="hqo-V4-rRR"/>
+                                <outlet property="delegate" destination="qF2-cP-oZd" id="E7b-2g-3FY"/>
+                                <outlet property="prefetchDataSource" destination="qF2-cP-oZd" id="SzF-cl-F2k"/>
+                            </connections>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="C4r-6P-tj4" secondAttribute="trailing" id="0Sx-Rc-FuW"/>
+                        <constraint firstItem="C4r-6P-tj4" firstAttribute="leading" secondItem="g5B-WJ-2ih" secondAttribute="leading" id="625-Ux-VZV"/>
+                        <constraint firstItem="q3Y-OX-QJF" firstAttribute="top" secondItem="C4r-6P-tj4" secondAttribute="bottom" id="Rpy-w0-oxP"/>
+                        <constraint firstAttribute="bottom" secondItem="q3Y-OX-QJF" secondAttribute="bottom" id="fxe-Lh-U67"/>
+                        <constraint firstAttribute="trailing" secondItem="q3Y-OX-QJF" secondAttribute="trailing" id="k6r-ZG-PoA"/>
+                        <constraint firstItem="q3Y-OX-QJF" firstAttribute="leading" secondItem="g5B-WJ-2ih" secondAttribute="leading" id="wTA-au-gbE"/>
+                        <constraint firstItem="C4r-6P-tj4" firstAttribute="top" secondItem="g5B-WJ-2ih" secondAttribute="top" id="wgm-5D-gFW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g5B-WJ-2ih" firstAttribute="bottom" secondItem="0KV-KH-bPG" secondAttribute="bottom" id="Dja-SJ-rjQ"/>
+                <constraint firstItem="g5B-WJ-2ih" firstAttribute="top" secondItem="0KV-KH-bPG" secondAttribute="top" id="Kwd-Gk-gPz"/>
+                <constraint firstAttribute="trailing" secondItem="g5B-WJ-2ih" secondAttribute="trailing" id="Zny-q0-Gih"/>
+                <constraint firstItem="g5B-WJ-2ih" firstAttribute="leading" secondItem="qF2-cP-oZd" secondAttribute="leading" id="u47-3K-1vL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="0KV-KH-bPG"/>
+            <connections>
+                <outlet property="collectionView" destination="q3Y-OX-QJF" id="Htu-cF-8DD"/>
+                <outlet property="collectionViewHeightConstraint" destination="Mo3-Jz-xP3" id="ouF-KA-bJi"/>
+                <outlet property="contentView" destination="g5B-WJ-2ih" id="f4I-VZ-QoL"/>
+                <outlet property="doneButton" destination="fBK-6R-xNZ" id="aTO-UZ-uta"/>
+                <outlet property="selectedItemsBarHeightConstraint" destination="wj1-9R-TaA" id="FGv-Pv-bVR"/>
+                <outlet property="selectedItemsContainerView" destination="C4r-6P-tj4" id="7p8-X4-H34"/>
+                <outlet property="showAllAssetsButton" destination="49D-m9-Ee2" id="fp6-M2-RDG"/>
+                <outlet property="showPhotosButton" destination="97P-Sm-Ws7" id="hB7-Id-kTq"/>
+                <outlet property="showVideosButton" destination="kiv-L8-UT3" id="qz0-9h-Fzw"/>
+            </connections>
+            <point key="canvasLocation" x="268" y="195.20239880059972"/>
+        </view>
+    </objects>
+</document>

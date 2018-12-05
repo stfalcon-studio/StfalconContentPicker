@@ -1,0 +1,6 @@
+framework module StfalconContentPicker {
+  umbrella header "StfalconContentPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

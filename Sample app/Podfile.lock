@@ -1,0 +1,20 @@
+PODS:
+  - MessageKit (1.0.0)
+  - StfalconContentPicker (0.0.1)
+
+DEPENDENCIES:
+  - MessageKit
+  - StfalconContentPicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MessageKit
+    - StfalconContentPicker
+
+SPEC CHECKSUMS:
+  MessageKit: 16160036b16476b04bd0e9f2c7ce67e662e503e4
+  StfalconContentPicker: 7139014584535dc100d45132d1e95609a77c4c35
+
+PODFILE CHECKSUM: 058def15a77d273b10db15b569ba1bca099b28bc
+
+COCOAPODS: 1.5.3
