@@ -1,6 +1,6 @@
 # StfalconContentPicker 
 
-This is library for fetch assets from user library. Library highly customizable, and have different UI elements. In example you will see different cases how I use it.
+This is a library for fetching assets from the user gallery. The library is highly customizable and has different UI elements. In the example you will see different cases how I use it.
 
 ### Who we are
 Need iOS and Android apps, MVP development or prototyping? Contact us via info@stfalcon.com. We develop software since 2009, and we're known experts in this field. Check out our [portfolio](https://stfalcon.com/en/portfolio) and see more libraries from [stfalcon-studio](https://stfalcon.com/en/opensource).
@@ -16,26 +16,26 @@ Download via Cocoapods:
  
  ## Protocols and what they do
 
-  AskGalleryPermision - this protocol needed for checking permisions, but this not requared and you can implemented your own logic.
-  Alertable - this protocol need for show popup's when user doesn't have permisions.
- MediaPickerProtocol - this protocol needed for show widget with asset's in different cases such as:
-  1. Show widget in parent view.
-  2. Show widget in input view in UITextView, UITextField.
+  AskGalleryPermission - this protocol is needed for checking permissions, but  it is not required and you can implement your own logic.
+  Alertable - this protocol is needed for showing pop-ups when a user doesn't have permissions.
+ MediaPickerProtocol - this protocol is needed for showing a widget with assets in different cases such as:
+  1. Showing a widget in the parent view.
+  2. Showing a widget in the input view in UITextView, UITextField.
 
 ## UI
 
-CollectionAssetView - needed for display assets that already fetched. You can inheritate in customize it how you wish.
-MediaItemCollectionViewCell - cell for displaying asset. You can inheritate in customize it how you wish. 
-MediaPickerViewController - controller that include CollectionAssetView in displayed all fetched assets. Also you can add some custom ui in this controller or create custom transition when you show it.
+CollectionAssetView - is needed for display of assets that have already been fetched. You can inherit control and customize it how you wish.
+MediaItemCollectionViewCell - a cell for displaying an asset. You can inherit control  and customize it how you wish. 
+MediaPickerViewController - a controller that includes CollectionAssetView and displays all fetched assets. Also you can add some custom UI in this controller or create custom transition when you show it.
  
 ## Entities
 
-MediaPickerOptions - all needed options for fetch assets, and configure CollectionAssetView.
-MediaAsset - needed for represent asset from librarry. You can inheritate it or conform your custom class to MediaAssetProtocol.
+MediaPickerOptions - all needed options for fetching assets and configuration of CollectionAssetView.
+MediaAsset - needed for representing an asset from the librarry. You can inherit class or conform your custom class to MediaAssetProtocol.
 
 ## About example
 
-In example app you can see how I use it.
+In the example app you can see how I use it.
 
 ![ ](https://media.giphy.com/media/26sFMghaoDbAlr6jwN/giphy.gif)
 
