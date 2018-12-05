@@ -37,7 +37,8 @@ MediaAsset - needed for representing an asset from the librarry. You can inherit
 
 In the example app you can see how I use it.
 
-![](https://media.giphy.com/media/1nQa6kuVEmdmEyT875/200w_d.gif)
+![](https://media.giphy.com/media/cAbTPnHb9VtcFwHc5x/200w_d.gif)
+![](https://media.giphy.com/media/xj1e3RY8r8J782ise4/200w_d.gif)
 
 
 ### License
